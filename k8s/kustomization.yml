@@ -1,10 +1,10 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - deployment.yml
-  - service.yml
+- deployment.yml
+- service.yml
 namespace: argo-app
 images:
-  - name: argo-app
-    newName: nhatns/argo-app
-    newTag: default
+- name: argo-app
+  newName: nhatns/argo-app
+  newTag: 118ef9d0c8ce47b12f4a3b750278e4835589b9b2
