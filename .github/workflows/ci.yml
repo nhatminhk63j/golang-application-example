@@ -40,7 +40,7 @@ jobs:
       env:
         DOCKER_USERNAME: ${{ secrets.USERNAME }}
       run: |
-        cd infra
+        cd k8s
         kustomize edit set image argo-app=$DOCKER_USERNAME/argo-app:$GITHUB_SHA
         cat kustomization.yml
         
