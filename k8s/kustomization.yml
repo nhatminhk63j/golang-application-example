@@ -7,4 +7,4 @@ namespace: argo-app
 images:
 - name: argo-app
   newName: nhatns/argo-app
-  newTag: 118ef9d0c8ce47b12f4a3b750278e4835589b9b2
+  newTag: b6e89ee80c3bff5af22553a924d9c28f5793bfdd
